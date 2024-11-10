@@ -2,6 +2,8 @@ import Image from "next/image";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
+import FinancingSection from "./components/FinancingSection"
+import DealershipManagement from "./components/DealershipManagement";
 
 export default function Home() {
   return (
@@ -9,6 +11,8 @@ export default function Home() {
        <Navbar></Navbar>
        <HeroSection></HeroSection>
       <AboutSection></AboutSection>
+      <FinancingSection></FinancingSection>
+      <DealershipManagement></DealershipManagement>
     </div>
   );
 }

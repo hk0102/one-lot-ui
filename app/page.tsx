@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
 import FinancingSection from "./components/FinancingSection"
 import DealershipManagement from "./components/DealershipManagement";
+import Benefits from "./components/Benefits";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <AboutSection></AboutSection>
       <FinancingSection></FinancingSection>
       <DealershipManagement></DealershipManagement>
+      <Benefits></Benefits>
     </div>
   );
 }

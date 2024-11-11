@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import { FaArrowRight } from "react-icons/fa";
+import { AiOutlineArrowRight } from "react-icons/ai";
 import AnnouncementIcon from "../../public/assets/Announcement.webp"
 import DollarIcon from "../../public/assets/Dollar.svg"
 
 const AboutSection = () => {
   return (
-    <div className="flex flex-col mx-4 md:flex-row gap-8 items-start  md:px-20 py-6 w-auto space-x-1 md:space-x-20">
+    <div className="flex flex-col mx-4 md:flex-row gap-8 items-start  md:px-20 py-6 w-auto space-x-1 md:space-x-20 my-12">
       <div className="flex flex-col gap-4 ">
       <div className="text-2xl md:text-4xl font-extrabold text-start text-[#000000] sm:text-3xl max-w-md sm:max-w-lg">
   Everything you need to grow your business
@@ -16,16 +16,15 @@ const AboutSection = () => {
           tailored for used car dealership. We also offer digital tools for
           streamlined operations and growth of your dealership.
         </div>
-        <div className="flex items-center gap-2">
-          <div className="text-[#57099C]">Learn more</div>
+        <div className="flex items-center gap-30">
+          <div className="text-[#57099C] font-bold" >Learn more</div>
           <div>
-            <FaArrowRight color="#57099C" fontSize={"0.8rem"} />
+            <AiOutlineArrowRight color="#57099C" fontSize={"1.0rem"} style={{fontWeight : "bold", strokeWidth: 20}}/>
           </div>
         </div>
       </div>
       <div>
-      <div className="flex flex-col gap-4 items-start w-auto p-0 m-0" >
-
+      <div className="flex flex-col gap-8 items-start w-auto p-0 m-0" >
         <div className="flex flex-col md:flex-row items-start gap-3 text-start">
           <div>
             <Image
@@ -46,14 +45,6 @@ const AboutSection = () => {
             <div className="text-base font-semibold text-[rgb(107,114,128)]">
               Get comprehensive car financing solutions, unlock the potential of
               your dealership and take it to new heights.
-            </div>
-            <div className="flex gap-2 items-center">
-              <div className="text-md font-medium text-[#7e3af2]">
-                Learn more
-              </div>
-              <div>
-                <FaArrowRight color="#57099C" fontSize={"0.8rem"} />
-              </div>
             </div>
           </div>
         </div>
@@ -79,14 +70,7 @@ const AboutSection = () => {
               Get comprehensive car financing solutions, unlock the potential of
               your dealership and take it to new heights.
             </div>
-            <div className="flex gap-2 items-center">
-              <div className="text-md font-medium text-[#7e3af2]">
-                Learn more
-              </div>
-              <div>
-                <FaArrowRight color="#57099C" fontSize={"0.8rem"} />
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>

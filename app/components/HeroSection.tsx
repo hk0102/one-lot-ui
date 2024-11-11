@@ -44,11 +44,13 @@ const HeroSection = () => {
           <div>
             <Image alt="RegulatoryImage" src={RegulatoryImage} height={200} width={160} />
           </div>
+        </div>
+        <div>
 
         </div>
+        <div className="h-[1px] bg-[#e5e7eb] mt-8"/>
       </div>
-    //   </div>
-    //   </div>
+    
       
   );
 };

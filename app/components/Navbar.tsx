@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useState } from 'react';
 import Link from 'next/link';
 import Logo from '../../public/assets/onelot-logo.webp'
-import { GiHamburgerMenu } from "react-icons/gi";
+import { AiOutlineMenu } from "react-icons/ai";
 const navLinks = [
     { name: "Home" },
     { name: "Products " },
@@ -33,21 +33,15 @@ const Navbar = () => {
         <span className="group items-center justify-center pr-[1rem] text-center font-medium relative focus:z-10 focus:outline-none focus:ring-transparent rounded-lg focus:ring-2 hidden sm:inline  text-gray-700 ">
           Log In
         </span>
-        <button
-          type="button"
-          className="bg-[#57009C]  p-0.5 text-white rounded-[0.5rem] lg:w-fit group items-center justify-center p-0.5 text-center font-medium relative focus:z-10 focus:outline-none text-white bg-[#57009C] border border-transparent focus:ring-transparent dark:enabled:hover:bg-purple-900 dark:focus:ring-purple- rounded-lg focus:ring-2 hidden sm:inline"
-        >
-          <span className="flex items-center transition-all duration-200 rounded-md text-sm px-4 py-2">
-            Inquire Now
-          </span>
-        </button>
+        <button type="button" className="flex text-white bg-purple-900 border border-transparent rounded-lg w-30 my-4 ">
+            <span className="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"><a href="/contact">View Loans</a></span>
+          </button>
     </div>
     
     {/* Mobile Menu Button */}
     <div className="md:hidden">
       <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
-        
-      <GiHamburgerMenu color="#000000" fontSize={"1.5rem"} />
+        <AiOutlineMenu fontSize={"1.7rem"} />
       </button>
     </div>
 
@@ -62,9 +56,9 @@ const Navbar = () => {
         <a href="/app/login" type="button" className="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none focus:ring-0 focus:ring-transparent rounded-lg w-full text-gray-700">
         <span className="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm">Login</span>
         </a>
-        <button type="button" className="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none text-white bg-[#3600D1] border border-transparent enabled:hover:bg-[#3600D1] focus:ring-0 focus:ring-transparent dark:bg-purple-600 dark:enabled:hover:bg-purple-700 dark:focus:ring-purple-900 rounded-lg w-full my-4">
-            <span className="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"><a href="/contact">Inquire Now</a></span>
-        </button>
+        <button type="button" className="flex text-white bg-purple-900 border border-transparent rounded-lg w-30 my-4 ">
+            <span className="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"><a href="/contact">View Loans</a></span>
+          </button>
       </div>
       </nav>
     )}

@@ -3,7 +3,7 @@ import React from "react";
 import { AiOutlineCheckCircle} from "react-icons/ai";
 import FinancingImage from "../../public/assets/CarFinancing.webp"
 
-const FinancingSection = () => {
+const FinancingOptions = () => {
   return (
     <div className="flex flex-col md:flex-row gap-8 mx-4 bg-[#f9fafb] md:px-20 py-6 w-auto space-x-1 md:space-x-20 items-start ">
       <div className="flex flex-col md:flex-row gap-4 my-12">
@@ -76,4 +76,4 @@ const FinancingSection = () => {
   );
 };
 
-export default FinancingSection;
+export default FinancingOptions;

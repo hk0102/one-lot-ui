@@ -3,7 +3,7 @@ import React from "react";
 import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
 import AvatarImg from "../../public/assets/Avatar_1.webp";
 
-const TestimonialSection = () => {
+const CustomerTestimonials = () => {
   return (
     <>
     <div className="flex flex-col gap-8 bg-white md:px-20 items-center my-20">
@@ -43,4 +43,4 @@ const TestimonialSection = () => {
   );
 };
 
-export default TestimonialSection;
+export default CustomerTestimonials;

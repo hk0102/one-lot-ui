@@ -5,11 +5,11 @@ import Image from "next/image";
 import Logo from "../../public/assets/onelot-logo.webp"
 import Flag from "../../public/assets/Flag-England.webp"
 
-const FooterSection = () => {
+const PageFooter = () => {
   return (
     <div className="flex  flex-col  gap-8 mx-4 bg-white md:px-20 py-6  space-x-1 md:space-x-20 items-center mt-10">
     <h2 className="flex text-4xl font-bold text-center mb-8 text-[#000] ">Get started today</h2>
-      <div className="text-[#6B7280] text-xl text-base text-center font-medium  md:w-1/2">
+      <div className="text-[#6B7280] text-base text-center font-medium  md:w-1/2">
         We look forward to serving the needs of used car dealers across the
         Philippines and helping them thrive in this dynamic market.
       </div>
@@ -64,4 +64,4 @@ const FooterSection = () => {
   );
 };
 
-export default FooterSection;
+export default PageFooter;

@@ -1,29 +1,29 @@
 import Image from "next/image";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
-import AboutSection from "./components/AboutSection";
-import FinancingSection from "./components/FinancingSection"
+import AboutUs from "./components/AboutUs";
+import FinancingOptions from "./components/FinancingSection"
 import DealershipManagement from "./components/DealershipManagement";
 import Benefits from "./components/Benefits";
-import TestimonialSection from "./components/TestimonialSection";
-import ContactSection from "./components/ContactSection";
+import CustomerTestimonials from "./components/TestimonialSection";
+import SocialMediaConnect from "./components/SocialMediaConnect";
 import FAQsSection from "./components/FAQsSection";
-import FooterSection from "./components/FooterSection";
+import PageFooter from "./components/FooterSection";
 
 
 export default function Home() {
   return (
     <div>
-       <Navbar></Navbar>
-       <HeroSection></HeroSection>
-      <AboutSection></AboutSection>
-      <FinancingSection></FinancingSection>
+      <Navbar></Navbar>
+      <HeroSection></HeroSection>
+      <AboutUs></AboutUs>
+      <FinancingOptions></FinancingOptions>
       <DealershipManagement></DealershipManagement>
       <Benefits></Benefits>
-      <TestimonialSection></TestimonialSection> 
-      <ContactSection></ContactSection>
+      <CustomerTestimonials></CustomerTestimonials> 
+      <SocialMediaConnect></SocialMediaConnect>
       <FAQsSection></FAQsSection>
-      <FooterSection></FooterSection>
+      <PageFooter></PageFooter>
     </div>
   );
 }

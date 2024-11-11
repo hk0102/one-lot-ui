@@ -5,6 +5,11 @@ import AboutSection from "./components/AboutSection";
 import FinancingSection from "./components/FinancingSection"
 import DealershipManagement from "./components/DealershipManagement";
 import Benefits from "./components/Benefits";
+import TestimonialSection from "./components/TestimonialSection";
+import ContactSection from "./components/ContactSection";
+import FAQsSection from "./components/FAQsSection";
+import FooterSection from "./components/FooterSection";
+
 
 export default function Home() {
   return (
@@ -15,6 +20,10 @@ export default function Home() {
       <FinancingSection></FinancingSection>
       <DealershipManagement></DealershipManagement>
       <Benefits></Benefits>
+      <TestimonialSection></TestimonialSection> 
+      <ContactSection></ContactSection>
+      <FAQsSection></FAQsSection>
+      <FooterSection></FooterSection>
     </div>
   );
 }

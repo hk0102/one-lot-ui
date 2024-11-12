@@ -54,12 +54,16 @@ const DealershipManagement = () => {
           <p className="text-lg text-[#6b7280] font-medium">
             Sign up for OneLot's dealer platform today, and make managing your cars easier.
           </p>
-          <button
-            type="button"
-            className="text-white bg-purple-900 rounded-lg my-4 px-4 py-2 text-sm"
-          >
-            <a href="/contact">Explore Now</a>
-          </button>
+          
+          <div className="w-fit">
+            <button type="button" className="flex text-white bg-purple-900 border border-transparent rounded-lg w-30 my-4 ">
+              <span className="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm">
+                <a href="/contact">
+                  Explore Now
+                </a>
+              </span>
+            </button>
+          </div>
         </div>
 
         <div className="md:w-1/2 flex justify-center">

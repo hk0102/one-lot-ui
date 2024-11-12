@@ -4,7 +4,7 @@ This project is a replica of an existing website created using **Next.js**, **Ta
 
 ## Table of Contents
 
-- [Features] (#features)
+- [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Project Setup](#project-setup)
 - [Implementation](#implementation)

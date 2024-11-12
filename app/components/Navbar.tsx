@@ -53,7 +53,7 @@ const Navbar = () => {
         <Link href="/about" className="cursor-pointer hover:text-[#57009C] focus:text-[#57009C]" onClick={() => setIsMenuOpen(false)}>About</Link>
         <Link href="/contact" className="cursor-pointer hover:text-[#57009C] focus:text-[#57009C]" onClick={() => setIsMenuOpen(false)}>Contact</Link>
         <div className="md:hidden">
-        <a href="/app/login" type="button" className="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none focus:ring-0 focus:ring-transparent rounded-lg w-full text-gray-700">
+        <a href="/app/login" type="button" className="group relative flex items-stretch justify-start p-0.5 text-start font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none focus:ring-0 focus:ring-transparent rounded-lg w-full text-gray-700">
         <span className="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm">Login</span>
         </a>
         <button type="button" className="flex text-white bg-purple-900 border border-transparent rounded-lg w-30 my-4 ">
